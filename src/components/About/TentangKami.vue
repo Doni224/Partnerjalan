@@ -26,7 +26,7 @@ export default {
     axios
       .get(this.pathTentang + "api/user/about/tentangkami", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+           'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setTentang(response.data))

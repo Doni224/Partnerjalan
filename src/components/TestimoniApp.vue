@@ -80,7 +80,7 @@ export default {
      axios
        .get(this.pathTesti + "api/user/testimoniuser", {
          headers: {
-          "Bypass-Tunnel-Reminder": 1
+           'ngrok-skip-browser-warning': 1
          }
       })
        .then((response) => this.setFoto(response.data))

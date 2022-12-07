@@ -176,7 +176,7 @@
             this.$pathApi + "api/user/paketuser/paket/" + this.$route.params.id,
             {
               headers: {
-                "Bypass-Tunnel-Reminder": 1
+                'ngrok-skip-browser-warning': 1
               },
             }
           );

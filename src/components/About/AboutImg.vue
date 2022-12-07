@@ -33,7 +33,7 @@ export default {
     axios
       .get(this.pathProfil + "api/user/about/foto", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+          'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setFoto(response.data))

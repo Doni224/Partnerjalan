@@ -26,7 +26,7 @@ export default {
     axios
       .get(this.pathTour + "api/user/fasilitasuser/tour", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+          'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setFasilitasTour(response.data))

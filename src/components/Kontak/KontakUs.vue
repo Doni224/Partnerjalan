@@ -28,7 +28,7 @@ export default {
     axios
       .get(this.pathKontak + "api/user/footer/contact", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+         'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setKontakUs(response.data))

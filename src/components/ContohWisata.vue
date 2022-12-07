@@ -66,7 +66,7 @@ export default {
       try {
         const rekomen = await axios.get(this.pathRekomen + "api/user/halamanutama/terbaik/", {
           headers: {
-            "Bypass-Tunnel-Reminder": 1
+             'ngrok-skip-browser-warning': 1
           },
         });
 

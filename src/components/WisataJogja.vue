@@ -156,7 +156,7 @@ export default {
           this.$pathApi + "api/user/paketuser/kota/" + this.$route.params.id,
           {
             headers: {
-              "Bypass-Tunnel-Reminder": 1
+               'ngrok-skip-browser-warning': 1
             },
           }
         )

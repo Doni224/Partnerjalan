@@ -84,7 +84,7 @@ methods: {
      axios
        .get(this.pathTerbaru + "api/user/halamanutama/terbaru" , {
          headers: {
-          "Bypass-Tunnel-Reminder": 1
+           'ngrok-skip-browser-warning': 1
          }
       })
        .then((response) => this.setFoto(response.data))

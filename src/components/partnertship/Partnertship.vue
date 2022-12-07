@@ -33,7 +33,7 @@ export default {
     axios
       .get("https://c3c8-114-110-23-154.ap.ngrok.io/api/user/partnership", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+          'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setFoto(response.data))

@@ -243,7 +243,7 @@ export default {
       axios
       .get(this.pathSemua +"api/user/cekpesanan/"+this.search,{
       headers: {
-        "Bypass-Tunnel-Reminder": 1
+        'ngrok-skip-browser-warning': 1
          }
       })
       .then((response) => this.setFoto(response.data))

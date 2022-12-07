@@ -26,7 +26,7 @@
       axios
         .get(this.pathBonus + "api/user/fasilitasuser/bonus", {
           headers: {
-            "Bypass-Tunnel-Reminder": 1
+            'ngrok-skip-browser-warning': 1
           }
         })
         .then((response) => this.setBonus(response.data))

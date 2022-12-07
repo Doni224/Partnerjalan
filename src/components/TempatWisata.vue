@@ -40,7 +40,7 @@ export default {
       try {
         const paket = await axios.get(this.$pathApi + "api/dashboard/paket/", {
           headers: {
-            "Bypass-Tunnel-Reminder": 1,
+            'ngrok-skip-browser-warning': 1,
             Authorization:
               "Bearer " +
               "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI3ZjY1YmUyMi04YTU0LTRlODYtOTg1Yy00ZjQ2MjE4NjFjNDQiLCJpYXQiOjE2NjYzMjIxODIsImV4cCI6MTY2NjkyNjk4Mn0.GSxLggupn9SeAC7MK9pqmVOWc3okXZd0crpqc9yIabQ",

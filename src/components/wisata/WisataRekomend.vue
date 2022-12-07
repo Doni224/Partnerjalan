@@ -36,7 +36,7 @@ export default {
     axios
       .get(this.pathRekomen + "api/user/halamanutama/recomen", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+         'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setRekomen(response.data))

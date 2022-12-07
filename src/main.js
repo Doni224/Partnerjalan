@@ -15,7 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
 
-Vue.prototype.$pathApi = "https://jalan.loca.lt/"
+Vue.prototype.$pathApi = "https://c629-103-191-109-11.ap.ngrok.io/"
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)

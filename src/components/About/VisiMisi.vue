@@ -26,7 +26,7 @@ export default {
     axios
       .get(this.pathVisi + "api/user/about/visimisi", {
         headers: {
-          "Bypass-Tunnel-Reminder": 1
+           'ngrok-skip-browser-warning': 1
         }
       })
       .then((response) => this.setVisiMisi(response.data))
