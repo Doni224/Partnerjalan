@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato',sans-serif;
+}
+
+h2.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        color:#333;
+    }
+}
+p,span,li{
+    font-family: 'Roboto',sans-serif;
+}
+
+p {
+    font-size:18px;
+}
+
+.btn-primary {
+    background-color:#55C9D3;
+    border:none;
+    padding:12px 16px;
+}
+
+.btn-primary:hover {
+    background-color:#91E8EF;
+}
+
+.btn-primary:focus {
+    background-color:#55C9D3;
+}

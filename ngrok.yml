@@ -1,0 +1,11 @@
+authtoken : 2ECXkCinmLiDSZk0wLzFJwFFFO1_2dy6LGP1GcWCDF8jLVKmw
+tunmels:
+express-js:
+proto: http
+addr: 3000
+python-flask:
+proto: http
+addr: 3000
+postgres:
+proto: tcp
+addr: 5432
